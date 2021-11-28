@@ -132,7 +132,7 @@
  	 	 	 	"eng": "Shangri-La Market Street"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "[Торговый рынок игроков]\r\n        Знаменитая торговая площаль в Шангри-Ла. Площадь заполнена прилавками.\r\n        Подбери что-нибудь для себя или продавай сам.",
+ 	 	 	 	"trans": "[Базар игроков]\r\n        Знаменитая торговая площадь в Шангри-Ла. Площадь заполнена прилавками.\r\n        Подбери что-нибудь для себя или продавай сам.",
  	 	 	 	"eng": "[Player Market]\r\n        The famous market street in Shangri-La. Loads of market stalls fill the street.\r\n        Maybe you can find something you need or set up shop yourself."
  	 	 	},
  	 	 	"toMainHub": {
@@ -199,10 +199,10 @@
  	 	"segment": {
  	 	 	"locked": {
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "Собери все 3 фрагмента ключа из подземелий в каждой из 3 локаций на предыдущей станции, \r\n                    а после найди [Терминал] в Центре города, чтобы создать нужный ключ необходимый для разблокировки этой локации",
+ 	 	 	 	 	"trans": "Собери все 3 фрагмента ключа из подземелий в каждой из 3 зон на предыдущей станции, \r\n                    а после найди [Терминал] в Центре города, чтобы создать нужный ключ необходимый для разблокировки этой локации",
  	 	 	 	 	"eng": "Gather all 3 different Key Fragments from Dungeons in each 3 zones in previous station, \r\n                    then go to [Terminal] at City Center [Hub] to brute-force (Craft) the key required to unlock this area"
  	 	 	 	}
- 	 	 	},
+ 	 	 	},о
  	 	 	"tut": {
  	 	 	 	"trans": "Начни в зоне с 1 по 10 уровень",
  	 	 	 	"eng": "Start with level 1 to 10 area"
@@ -312,7 +312,7 @@
  	 	 	 	"eng": "Terminal"
  	 	 	},
  	 	 	"tut": {
- 	 	 	 	"trans": "Чтобы перейти в следующую локацию, тебе нужно использовать секретные части ключей из подземелий \r\n        и запустить Терминал, чтобы грубой силой взломать ключ к следующей локации",
+ 	 	 	 	"trans": "Чтобы перейти в следующую локацию, тебе нужно использовать секретные части ключей из подземелий \r\n        и запустить Терминал, чтобы взломать ключ к следующей локации",
  	 	 	 	"eng": "To progress to the next area, you need to get Secret Key Fragments from dungeons, \r\n        and use the Terminal to Brute Force the key for next area"
  	 	 	},
  	 	 	"description": {
@@ -374,7 +374,7 @@
  	 	 	 	"eng": "Automatic Recycler"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Полностью автоматизированный переработчик, способный перерабатывать предметы в металлолом",
+ 	 	 	 	"trans": "Полностью автоматизированный переработчик, способный перерабатывать предметы в хлам",
  	 	 	 	"eng": "Fully automated recycler, capable of recycling items to their basic scrap form"
  	 	 	}
  	 	}
@@ -386,7 +386,7 @@
  	 	 	 	"eng": "work in printing factory"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Повысь свой уровень печати, не растрачиваясь на металлолом, это поможет увеличить уровень напечатанной тобой экипировки.",
+ 	 	 	 	"trans": "Повысь свой навык печати, не теряя ценный хлам, это может помочь увеличить уровень печатаемой экипировки.",
  	 	 	 	"eng": "Improve Printing Rank without sacrificing tech scrap, this may help to increase the level of your prints."
  	 	 	}
  	 	},
@@ -412,21 +412,21 @@
  	 	},
  	 	"reverseEngineer": {
  	 	 	"name": {
- 	 	 	 	"trans": "Разбор металлолома",
+ 	 	 	 	"trans": "Разбор хлама",
  	 	 	 	"eng": "Reverse Engineer Scraps"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Разбери металлолом, чтобы увеличить уровень печати. \r\n        Придется потратить немного своего металлолома.",
+ 	 	 	 	"trans": "Разбери хлам, чтобы увеличить уровень печати. \r\n        Придется потратить немного своего хлама.",
  	 	 	 	"eng": "Reverse engineer tech scrap to improve your Print Rank. \r\n        You’ll need to sacrifice some of your tech scrap."
  	 	 	}
  	 	},
  	 	"reverseMining": {
  	 	 	"name": {
- 	 	 	 	"trans": "Майнинг криптовалюты",
+ 	 	 	 	"trans": "запустить майнинг криптовалюты",
  	 	 	 	"eng": "initiate crypto mining"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "С помощью криптодобычи ты заработаешь Биткоины, однако из-за слишком большой нагрузки хэш процессоры, более известные как КВМ (Квантовые Вычислительные Машины) часто выгорают.",
+ 	 	 	 	"trans": "запустив майнинг криптовалюты ты заработаешь Биткоины, однако из-за слишком большой нагрузки хэш процессоры, более известные как КВМ (Квантовые Вычислительные Машины) часто выгорают.",
  	 	 	 	"eng": "Engaging in crypto mining will earn you Bitcoins, however due to the intense use of the Hash Processors, the Quantum Processing Unit, otherwise known as the QPU, will often burn out."
  	 	 	}
  	 	},
@@ -476,7 +476,7 @@
  	 	 	 	"eng": "Decrypt memory shard"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Расшифруй найденный фрагмент памяти для получения полезной информации ",
+ 	 	 	 	"trans": "Расшифруй найденный фрагмент памяти для получения полезных данных.",
  	 	 	 	"eng": "Decrypt a memory shard to retrieve useful intel."
  	 	 	}
  	 	},
